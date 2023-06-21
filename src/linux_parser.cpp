@@ -357,5 +357,5 @@ long LinuxParser::UpTime(int pid)
       }
     }
   }
-  return (std::stoll(elements[14] ) + std::stoll( elements[15]))/hertz;
+  return (std::stoll(elements[21] ))/hertz;
 }
